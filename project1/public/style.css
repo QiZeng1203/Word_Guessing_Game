@@ -1,0 +1,40 @@
+html, body { 
+    background-color: #EAF6F6;
+    height: 100%;
+    margin: 0;
+    font-family: sans-serif;
+    text-align: center;
+  }
+
+p, h1 {
+    color: #66BFBF;
+    font-size: 1rem;
+    margin: 10px;
+    font-family: 'sans-serif';
+  }
+
+.username { 
+    color: #66BFBF;
+    grid-area: users;
+  
+    padding: 20px;
+    margin: 20px;
+    overflow-y: auto;
+    list-style-type: none;
+  }
+
+.button:hover {
+    background-color: #ffbf00;
+    transition: 0.7s;
+    border-radius: 8px;
+}
+
+.wordList {
+    border: grey solid 2px;
+    list-style-type: none;
+}
+
+ul.List > li {
+    display: inline-block;
+    padding: 5px;
+}
